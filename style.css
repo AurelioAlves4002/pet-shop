@@ -6,6 +6,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /*Cabeçalho*/
@@ -94,9 +95,78 @@ body {
     justify-content: center;
     align-items: center;
     gap: 5px;
+    margin-bottom: 120px;
+}
+
+@media (max-width: 800px) {
+    .img-servicos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-bottom: 120px;
+    }
 }
 
 .img-servicos img {
     border-radius: 10px;
     box-shadow: 1px 1px 25px 5px #0000005c;
+}
+
+/*Social*/
+
+section.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3c184e;
+    color: white;
+}
+
+.texto-social h2 {
+    margin-top: 120px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.texto-social h2 span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.social .img-social {
+    margin-bottom: 50px;
+}
+
+.social .img-social img {
+    max-width: 50px;
+    padding: 20px;
+}
+
+
+/*Marcas*/
+
+
+section.marcas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-marcas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    gap: 40px;
+}
+
+.texto-marcas {
+    margin: 40px 0;
+    color: #3c184e;
+    font-weight: bolder;
 }
