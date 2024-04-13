@@ -153,6 +153,7 @@ section.marcas {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 120px auto;
 }
 
 .img-marcas {
@@ -169,4 +170,50 @@ section.marcas {
     margin: 40px 0;
     color: #3c184e;
     font-weight: bolder;
+}
+
+/*Localização*/
+
+section.localizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3c184e;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.texto-localizacao {
+    text-align: center;
+}
+
+.texto-localizacao h2 {
+    padding-bottom: 20px;
+}
+
+.maps {
+    max-width: 800px;
+    height: 450px;
+}
+
+/*Rodapé*/
+
+footer {
+    background-color: #3c184e;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+
+footer p a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
 }
